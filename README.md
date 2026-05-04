@@ -92,8 +92,11 @@ docker run -d -p 5000:5000 flask-app
 http://<public_ip>:5000
 
 🔹 Run Java Application
+
 cd java-docker
+
 docker build -t java-app .
+
 docker run java-app
 
 
