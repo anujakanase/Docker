@@ -1,11 +1,12 @@
-* What is Docker ?
+# What is Docker ?
+  
 Docker is a containerization platform that provides easy way to containerize your applications, which means, using Docker we can build container images, run the images to create containers and also push these containers to container regestries such as DockerHub.
 
-* What is a container ?
+# What is a container ?
   
 A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. 
 
-* Docker LifeCycle
+# Docker LifeCycle
   
 There are three important things,
 
@@ -17,15 +18,15 @@ There are three important things,
 
 * This repository contains hands-on Docker projects demonstrating real-world DevOps practices including:
 
- Containerization of applications
+ - Containerization of applications
 
- Multi-stage Docker builds
+ - Multi-stage Docker builds
 
- Lightweight production-ready images
+ - Lightweight production-ready images
 
- Running and managing containers
+ - Running and managing containers
 
-# 🛠️ Tech Stack
+🛠️ Tech Stack
 
 - 🐳 Docker
 
