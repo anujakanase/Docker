@@ -1,12 +1,29 @@
+* What is Docker ?
+Docker is a containerization platform that provides easy way to containerize your applications, which means, using Docker we can build container images, run the images to create containers and also push these containers to container regestries such as DockerHub.
+
+* What is a container ?
+  
+A container is a standard unit of software that packages up code and all its dependencies so the application runs quickly and reliably from one computing environment to another. 
+
+* Docker LifeCycle
+  
+There are three important things,
+
+1) docker build -> builds docker images from Dockerfile
+   
+2) docker run -> runs container from docker images
+   
+3) docker push -> push the container image to public/private regestries to share the docker images.
+
 * This repository contains hands-on Docker projects demonstrating real-world DevOps practices including:
 
-- Containerization of applications
+ Containerization of applications
 
-- Multi-stage Docker builds
+ Multi-stage Docker builds
 
-- Lightweight production-ready images
+ Lightweight production-ready images
 
-- Running and managing containers
+ Running and managing containers
 
 # 🛠️ Tech Stack
 
@@ -53,7 +70,7 @@
 
 🔹 Run Nginx Container
 
-cd nginx-docker
+cd nginx
 
 docker build -t nginx-app .
 
@@ -64,7 +81,7 @@ http://<pubilc_ip>:80
 
 🔹 Run Flask Application
 
-cd flask-app
+cd flask-app-ecs
 
 docker build -t flask-app .
 
@@ -74,7 +91,7 @@ docker run -d -p 5000:5000 flask-app
 http://<public_ip>:5000
 
 🔹 Run Java Application
-cd java-app
+cd java-docker
 docker build -t java-app .
 docker run java-app
 
