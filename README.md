@@ -16,7 +16,7 @@ There are three important things,
    
 3) docker push -> push the container image to public/private regestries to share the docker images.
 
-* This repository contains hands-on Docker projects demonstrating real-world DevOps practices including:
+###This repository contains hands-on Docker projects demonstrating real-world DevOps practices including:
 
  - Containerization of applications
 
